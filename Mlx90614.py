@@ -16,7 +16,7 @@ def read_temperature():
         temp_celsius = (temp_raw * 0.02) - 273.15
         
         return round(temp_celsius, 2)
-    except:~
+    except:
         return None
 
 # Main loop
